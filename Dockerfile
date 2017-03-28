@@ -59,7 +59,7 @@
 
   RUN mkdir -p /app/hostmapdir
 
-  ADD ./tools /app/tools
+#  ADD ./tools /app/tools
   ADD ./src/jupyter /app/src/jupyter
 
   CMD [ "/app/src/jupyter/start_jupyter.sh" ]
