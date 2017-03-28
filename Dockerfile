@@ -57,7 +57,7 @@
 
   RUN conda install jupyter -y --quiet  && mkdir /opt/notebooks
 
-  RUN mkdir -p /app/hostmapdir
+  RUN mkdir -p /app/hostmapdir ./src
 
 #  ADD ./tools /app/tools
   ADD ./src/jupyter /app/src/jupyter
