@@ -20,5 +20,5 @@ fi
 
 #echo docker run -i -t $appdiroption $notebookdiroption -p 3000:3000 -p 8888:8888 -p 8080:80 -p 8443:443 jonasmalmsten/jira2condasp
 docker login
-docker pull jonasmalmsten/jira2condasp
-docker run -i -t $appdiroption $notebookdiroption -p 8888:8888 jonasmalmsten/jira2condasp
+docker pull jonasmalmsten/condasp
+docker run -i -t $appdiroption $notebookdiroption -p 8888:8888 jonasmalmsten/condasp
